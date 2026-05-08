@@ -7,7 +7,26 @@
     <title>giovana</title>
 </head>
 <body>
-    
+    <header>
+        <h1>meus projetos</h1>
+        <p>os melhores projetos dvs</p>
+        <div>
+            <input type="button" class="cor" onclick="trocar(#3ae881)">
+             <input type="button" class="cor" onclick="trocar(#c13eaf)">
+              <input type="button" class="cor" onclick="trocar(#c1e881)">
+        </div>
+    </header>
+    <main>
+        <button onclick="cardprodutos(produtos)">mostrar todos(map)</button>
+        <button onclick="filtrarpromoçoens()">apenas promoçoens(filter)</button>
+        <button onclick="calculartotal()">calcular total(reduce)</button>
+        <div class="lista-produtos"id="grid"></div>
+        <h2 id="resultado-total"></h2>
+    </main>
+<footer>
+    <p&copy;>2026 todos os direitos reservados</p&copy;>
+</footer>
+
         <script src="./src/js/script.js"></script>
 </body>
 </html>
